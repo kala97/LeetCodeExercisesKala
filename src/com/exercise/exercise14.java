@@ -2,23 +2,25 @@ package com.exercise;
 
 public class exercise14 {
     public String longestCommonPrefix(String[] strs) {
+        if (strs.length == 0 || strs == null) {
+            return "";
+        }
         int length = strs[0].length();
-        boolean ans = true;
-        StringBuilder sb = new StringBuilder();
-        for (int i = 1; i < strs.length; i++) {
-            length = Math.min(length, strs[i].length());
-        }
-        for (int j = 1; j < length; j++) {
+//        for (int i = 1; i < strs.length; i++) {
+//            length = Math.min(length, strs[i].length());
+//        }
+        for (int j = 0; j < length; j++) {
+            char c = strs[0].charAt(j);
             for (int i = 1; i < strs.length; i++) {
-                boolean b = strs[0].regionMatches(0, strs[i], 0, j);
-                ans = ans&&b;
-            }
-            while (ans){
-                sb.append(strs[0].charAt(j));
+                if (j == strs[i].length()||strs[i].charAt(j) != c ) {
+                    return strs[0].substring(0, j);
+                }
             }
         }
-        int sblength = sb.length();
-        sb.append(sblength);
-        return sb.toString();
+        return strs[0];
     }
+
+//    public static void main(String[] args) {
+//        System.out.println(longestCommonPrefix(new String[]{"ab", "a"}));
+//    }
 }
