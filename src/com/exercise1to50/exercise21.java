@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise12 {
     public String intToRoman(int num) {

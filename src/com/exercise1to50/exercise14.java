@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise14 {
     public String longestCommonPrefix(String[] strs) {

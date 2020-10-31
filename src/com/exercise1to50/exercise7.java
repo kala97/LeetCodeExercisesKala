@@ -1,6 +1,4 @@
-package com.exercise;
-
-import java.util.ArrayList;
+package com.exercise1to50;
 
 public class exercise7 {
     public int reverse(int x) {

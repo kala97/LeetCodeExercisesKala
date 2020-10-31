@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise33 {
     public int search(int[] nums, int target) {

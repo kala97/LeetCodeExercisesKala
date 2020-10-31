@@ -1,6 +1,4 @@
-package com.exercise;
-
-import java.util.Arrays;
+package com.exercise1to50;
 
 public class exercise31 {
     public void nextPermutation(int[] nums) {

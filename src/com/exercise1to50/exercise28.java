@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise28 {
     public static int strStr(String haystack, String needle) {

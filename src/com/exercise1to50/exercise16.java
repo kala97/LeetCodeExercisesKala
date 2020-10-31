@@ -1,8 +1,7 @@
-package com.exercise;
+package com.exercise1to50;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 public class exercise16 {
     public int threeSumClosest(int[] nums, int target) {

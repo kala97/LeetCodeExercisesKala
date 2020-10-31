@@ -1,4 +1,4 @@
-package com.exercise;
+package com.exercise1to50;
 
 public class exercise6 {
     public String convert(String s, int numRows) {
