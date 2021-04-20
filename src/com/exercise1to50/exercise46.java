@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class exercise46 {
+public class                      exercise46 {
     List<List<Integer>> ans = new ArrayList<>();
     List<Integer> combine = new ArrayList<>();
 
