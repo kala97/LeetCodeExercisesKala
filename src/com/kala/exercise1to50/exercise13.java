@@ -7,7 +7,7 @@ public class exercise13 {
     public static int romanToInt(String s) {
         int ans = 0;
         int temp = 0;
-        Map<Character, Integer> table = new HashMap<>() {{
+        Map<Character, Integer> table = new HashMap<Character, Integer>() {{
             put('M', 1000);
             put('D', 500);
             put('C', 100);

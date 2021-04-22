@@ -18,7 +18,7 @@ class Automation {
     public long ans = 0;
     public int sign = 1;
     private String state = "start";
-    private Map<String, String[]> table = new HashMap<>() {
+    private Map<String, String[]> table = new HashMap<String, String[]>() {
         {
             put("start", new String[]{"start", "signed", "in_number", "end"});
             put("signed", new String[]{"end", "end", "in_number", "end"});

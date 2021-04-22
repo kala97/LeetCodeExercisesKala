@@ -48,6 +48,6 @@ public class zhaoyinwangluoTest1 {
         Queue<String> queue = new LinkedList<>();
         }
         String s1 = "Easd";
-        s1.equalsIgnoreCase()
+//        s1.equalsIgnoreCase();
     }
 }

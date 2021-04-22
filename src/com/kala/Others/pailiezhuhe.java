@@ -29,7 +29,7 @@ public class pailiezhuhe {
             return;
         }
         ans.add(num[index]);
-        dfs(n,target-num[index],list,ans,index+1);
+        dfs(num,target-num[index],list,ans,index+1);
 
     }
 
