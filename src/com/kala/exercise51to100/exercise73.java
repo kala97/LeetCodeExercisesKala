@@ -6,6 +6,8 @@ import java.util.ArrayList;
  * @Description 73. 矩阵置零
  * @Version 1.0
  **/
+
+//todo Wait to be finish.
 public class exercise73 {
     public void setZeroes(int[][] matrix) {
         int m = matrix.length;
