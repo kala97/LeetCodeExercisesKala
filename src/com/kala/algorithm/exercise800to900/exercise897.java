@@ -1,6 +1,6 @@
 package com.kala.algorithm.exercise800to900;
 
-import com.kala.algorithm.common.TreeNode;
+import com.kala.common.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

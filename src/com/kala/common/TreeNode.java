@@ -1,4 +1,4 @@
-package com.kala.algorithm.common;
+package com.kala.common;
 
 /**
  * @Description Definition for a binary tree node.

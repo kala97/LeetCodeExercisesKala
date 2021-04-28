@@ -1,6 +1,6 @@
 package com.kala.algorithm.company;
 
-import com.kala.algorithm.common.ListNode;
+import com.kala.common.ListNode;
 
 public class jz16Merge {
     public ListNode Merge(ListNode list1, ListNode list2) {

@@ -1,6 +1,6 @@
 package com.kala.algorithm.dailycode;
 
-import com.kala.algorithm.common.TreeNode;
+import com.kala.common.TreeNode;
 
 /**
  * 938. 二叉搜索树的范围和

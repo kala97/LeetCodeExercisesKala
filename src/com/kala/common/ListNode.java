@@ -1,4 +1,4 @@
-package com.kala.algorithm.common;
+package com.kala.common;
 
 public class ListNode {
     public int val;

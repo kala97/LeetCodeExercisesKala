@@ -1,6 +1,6 @@
 package com.kala.algorithm.exercise51to100;
 
-import com.kala.algorithm.common.ListNode;
+import com.kala.common.ListNode;
 
 public class exercise61 {
     public ListNode rotateRight(ListNode head, int k) {

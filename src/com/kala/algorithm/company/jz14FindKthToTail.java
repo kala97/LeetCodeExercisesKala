@@ -1,6 +1,6 @@
 package com.kala.algorithm.company;
 
-import com.kala.algorithm.common.ListNode;
+import com.kala.common.ListNode;
 
 public class jz14FindKthToTail {
     public ListNode FindKthToTail(ListNode pHead, int k) {
