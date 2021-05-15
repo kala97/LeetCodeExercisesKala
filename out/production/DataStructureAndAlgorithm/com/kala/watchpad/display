@@ -1,0 +1,9 @@
+    | |   |   | |           "IODisplayPrefsKey" = "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/PEG0@1/IOPP/GFX0@0-610-ae1b-3444cdd4aa988952"
+    | |   |   | |           "IODisplayPrefsKeyOld" = "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/PEG0@1/IOPP/GFX0@0/ATY,Caroni@0/AMDFramebufferVIB/display0/AppleBacklightDisplay-610-ae1b"
+    | |   |   | |           "IODisplayPrefsKeyOld" = "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/PEG0@1/IOPP/GFX0@0/ATY,Caroni@2/AMDFramebufferVIB/display0/AppleDisplay-10ac-d0c1"
+    | |   |   | |           "IODisplayPrefsKey" = "IOService:/AppleACPIPlatformExpert/PCI0@0/AppleACPIPCI/PEG0@1/IOPP/GFX0@0-10ac-d0c1-143c0470efbb0d26"
+
+
+
+    sudo cp -R /System/Library/Displays /Library/
+    sudo cp ~/Downloads/DisplayProductID-d0c1.plist /Library/Displays/Contents/Resources/Overrides/DisplayVendorID-10ac/DisplayProductID-d0c1
